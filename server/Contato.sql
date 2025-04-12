@@ -1,0 +1,9 @@
+Use Contato;
+CREATE TABLE Pessoa(
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    name  VARCHAR(50) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    mensagem VARCHAR(1500) NOT NULL
+);
+
+
