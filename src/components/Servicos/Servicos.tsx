@@ -24,8 +24,8 @@ function Servicos() {
         setEndereco(data);
         setErro('');
       }
-    } catch (error) {
-      setErro('Erro ao buscar o CEP.');
+    } catch (erro) {
+      setErro('Erro ao buscar o CEP.'+ erro);
       setEndereco(null);
     }
   };
