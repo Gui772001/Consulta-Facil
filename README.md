@@ -1,54 +1,35 @@
-# React + TypeScript + Vite
+📦 Consulta Fácil
+Consulta Fácil é uma aplicação web desenvolvida como parte de um processo seletivo para uma empresa júnior. Ela permite ao usuário consultar dados completos de um endereço a partir de um CEP, exibindo informações como cidade, estado e logradouro. Além disso, conta com uma rota de contato onde visitantes podem enviar seu nome, e-mail e opinião, com os dados sendo armazenados em um banco de dados hospedado em um container Docker.
+🚀 Funcionalidades
+🔍 Consulta de informações completas por CEP (rua, bairro, cidade, estado)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📬 Rota de contato com formulário (nome, e-mail, opinião)
 
-Currently, two official plugins are available:
+💾 Armazenamento de dados de contato em banco de dados
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🐳 Banco de dados rodando via container Docker
 
-## Expanding the ESLint configuration
+🌐 Interface web responsiva e acessível
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🧰 Tecnologias Utilizadas
+HTML, CSS e JavaScript
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+API ViaCEP
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Node.js + Express (Back-end)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+MySQL (Banco de dados)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Docker
+
+<p align="center">
+  <img src="./img/consulta-cep.png" alt="Tela de consulta de CEP" width="700"/>
+</p>
+
+<p align="center">
+  <img src="./img/rota-contato.png" alt="Rota de contato com formulário" width="700"/>
+</p>
+<p align="center">
+  <img src="./img/rota-servico.png" alt="Rota de seriviço com formulário" width="700"/>
+</p>
+
