@@ -1,4 +1,5 @@
 📦 Consulta Fácil
+
 Consulta Fácil é uma aplicação web desenvolvida como parte de um processo seletivo para uma empresa júnior. Ela permite ao usuário consultar dados completos de um endereço a partir de um CEP, exibindo informações como cidade, estado e logradouro. Além disso, conta com uma rota de contato onde visitantes podem enviar seu nome, e-mail e opinião, com os dados sendo armazenados em um banco de dados hospedado em um container Docker.
 
 
