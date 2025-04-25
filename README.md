@@ -4,26 +4,18 @@ Consulta Fácil é uma aplicação web desenvolvida como parte de um processo se
 
 
 🚀 Funcionalidades
-🔍 Consulta de informações completas por CEP (rua, bairro, cidade, estado)
-
-📬 Rota de contato com formulário (nome, e-mail, opinião)
-
-💾 Armazenamento de dados de contato em banco de dados
-
-🐳 Banco de dados rodando via container Docker
-
-🌐 Interface web responsiva e acessível
+- • 🔍 Consulta de informações completas por CEP (rua, bairro, cidade, estado)
+- • 📬 Rota de contato com formulário (nome, e-mail, opinião)
+- • 💾 Armazenamento de dados em banco de dados via Docker
+- •🐳 Banco de dados rodando via container Docker
+- •🌐 Interface web responsiva e acessível
 
 🧰 Tecnologias Utilizadas
-HTML, CSS e JavaScript
-
-API ViaCEP
-
-Node.js + Express (Back-end)
-
-MySQL (Banco de dados)
-
-Docker
+- •HTML, CSS e TypeScript
+- •API ViaCEP
+- •Node.js + Express (Back-end)
+- •MySQL (Banco de dados)
+- •Docker
 
 <p align="center">
   <img src="./img/consulta-cep.png" alt="Tela de consulta de CEP" width="700"/>
